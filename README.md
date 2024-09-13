@@ -2,17 +2,20 @@
 We need to create a special user named james on a server and give him a unique ID, along with a special home for him to live in.
 
 #### Task-1: In response to heightened security concerns, the xFusionCorp Industries security team has opted for custom Apache users for their web applications. Each user is tailored specifically for an application, enhancing security measures. Your task is to create a custom Apache user according to the outlined specifications:
-    a.	Create a user named james on App server 3 within the Stratos Datacenter.
-    b.	Assign a unique UID 1633 and designate the home directory as /var/www/james.
+a.	Create a user named james on App server 3 within the Stratos Datacenter.
+b.	Assign a unique UID 1633 and designate the home directory as /var/www/james.
 ## Solution:
 Our goal: We need to create a special user named james on a server and give him a unique ID, along with a special home for him to live in.
 Imagine you're playing a game where the "server" is a big house, and james is a new player who needs a special room. We're going to give james his own room in the house and a special badge (UID) that nobody else has.
 Steps to create james:
-1. Open the Server Terminal
+
+Open the Server Terminal
+
 •	First, we need to go into the "house" (the server) and start working.
+
 •	You log into the server using SSH (a magic tool to connect to the server). If you're working on App Server 3 of Stratos Datacenter, you'd log in like this:
 
-        ssh username@IP_Address_of_App_Server_3
+    ssh username@IP_Address_of_App_Server_3
 
 Replace "username" and "IP_Address_of_App_Server_3" with the correct details.
 3. Create the user named james
